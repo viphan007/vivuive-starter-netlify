@@ -147,3 +147,18 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export function Head() {
+  return (
+    <>
+      <title>Test home page</title>
+      <meta name="twitter:image" content="https://images.ctfassets.net/gjyjx7gst9lo/1Od0H4fqx1zo9xcTNKJdJU/2674651c8192023da105bd630c242b7c/Pioneering-Web3-Adoption-in-the-Philippines__Feature_MEDIUM.jpg?w=1200&h=630" />
+      <meta property="og:image" content="https://images.ctfassets.net/gjyjx7gst9lo/1Od0H4fqx1zo9xcTNKJdJU/2674651c8192023da105bd630c242b7c/Pioneering-Web3-Adoption-in-the-Philippines__Feature_MEDIUM.jpg?w=1200&h=630" />
+      <meta name="description" content="description" />
+      <meta property="og:title" content="og:title" />
+      <meta property="og:description" content="og:description" />
+      <meta name="twitter:title" content="twitter:title" />
+      <meta name="twitter:description" content="twitter:description" />
+    </>
+  )
+}
