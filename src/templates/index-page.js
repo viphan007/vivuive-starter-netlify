@@ -152,8 +152,8 @@ export function Head() {
   return (
     <>
       <title>Test home page</title>
-      <meta name="twitter:image" content="https://images.ctfassets.net/gjyjx7gst9lo/1Od0H4fqx1zo9xcTNKJdJU/2674651c8192023da105bd630c242b7c/Pioneering-Web3-Adoption-in-the-Philippines__Feature_MEDIUM.jpg?w=1200&h=630" />
-      <meta property="og:image" content="https://images.ctfassets.net/gjyjx7gst9lo/1Od0H4fqx1zo9xcTNKJdJU/2674651c8192023da105bd630c242b7c/Pioneering-Web3-Adoption-in-the-Philippines__Feature_MEDIUM.jpg?w=1200&h=630" />
+      <meta name="twitter:image" content="https://images.ctfassets.net/gjyjx7gst9lo/6sfeuOQgcPogLE4FKUfztr/472352cdb1c95aec4472e4a9fdcd0a0f/pic_2.jpg?w=1200&h=630" />
+      <meta property="og:image" content="https://images.ctfassets.net/gjyjx7gst9lo/6sfeuOQgcPogLE4FKUfztr/472352cdb1c95aec4472e4a9fdcd0a0f/pic_2.jpg?w=1200&h=630" />
       <meta name="description" content="description" />
       <meta property="og:title" content="og:title og:title og:title" />
       <meta property="og:description" content="og:description og:description og:description og:description" />
