@@ -62,3 +62,19 @@ export const aboutPageQuery = graphql`
     }
   }
 `;
+
+export function Head() {
+  return (
+    <>
+      <title>Test about page</title>
+      <meta name="twitter:image" content="https://images.ctfassets.net/gjyjx7gst9lo/6sfeuOQgcPogLE4FKUfztr/472352cdb1c95aec4472e4a9fdcd0a0f/pic_2.jpg" />
+      <meta property="og:image" content="https://images.ctfassets.net/gjyjx7gst9lo/6sfeuOQgcPogLE4FKUfztr/472352cdb1c95aec4472e4a9fdcd0a0f/pic_2.jpg" />
+      <meta name="description" content="description about page" />
+      <meta property="og:title" content="og:title about page" />
+      <meta property="og:description" content="og:description about page about page about page about page" />
+      <meta name="twitter:title" content="twitter:title about page about page about page" />
+      <meta name="twitter:description" content="twitter:description about page about page about page about page" />
+      <meta name="twitter:card" content="summary_large_image" />
+    </>
+  )
+}
